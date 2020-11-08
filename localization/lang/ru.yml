@@ -1,0 +1,211 @@
+SERVER_WAS_DOWN: '§rСервер §a%s §rбыл отключен, Вы перенаправлены на §a%s'
+PROXY_WAS_DOWN: '§cПрокси был отключен, зайдите позже'
+
+BUNGEE_SERVER_CONNECT_ERROR: 'Ошибка, мы не смогли телепортировать вас на §a%s §rпо причине: §a%s'
+BUNGEE_SERVER_CONNECT_ERROR2: 'Произошла ошибка при телепортации на сервер §a%s§r. Сообщение администрации §bhttps://vk.me/garterix'
+BUNGEE_ALREADY_ONLINE: '§cДанный игрок уже на сервере!'
+BUNGEE_NO_REASON: '§cНе указана'
+BUNGEE_ALREADY_CONNECTING: 'Подключение...'
+
+SUBCOMMAND_HELP: 'Список подкоманд для §a%s:'
+ERROR_COMMAND: 'Ошибка, используйте %s'
+
+JOIN_PLAYER_TO_LOBBY: ' §a▶ %s §6зашел на сервер'
+
+GROUP_HELP:
+ - ' §7/group set <ник игрока> <группа> §f- обновить группу игрока'
+ - ' §7/group migrate <старый ник> <новый ник> §f- перенос группы игрока'
+
+IGNORE_HELP:
+ - ' §7/ignore add <ник игрока> §r- добавить игрока в игнор.'
+ - ' §7/ignore remove <ник игрока> §r- §rудалить игрока из игнор.'
+
+FRIEND_HELP:
+ - ' §7/friend add <ник игрока> §r- добавить игрока в друзья'
+ - ' §7/friend remove <ник игрока> §r- удалить игрока из друзей'
+ - ' §7/friend accept <ник игрока> §r- принять запрос в друзья'
+ - ' §7/friend deny <ник игрока> §r- отклонить запрос в друзья'
+ - ' §7/friend tp <ник игрока> §r- телепортация на сервер друга'
+
+ALL_CANT_CONTACT_HIM: 'Ошибка, игрок %s §rотключил личные сообщения'
+YOU_CANT_CONTACT_HIM: 'Ошибка, игрок %s §rигнорирует вас'
+CANT_MESSAGE_YOURSELF: 'Вы не можете написать самому себе'
+CANT_IGNORE_YOURSELF: 'Вы не можете игнорировать самого себя'
+PLAYER_IGNORED: 'Вы добавили игрока %s §rв список игнорируемых'
+PLAYER_NOT_IGNORED: 'Вы убрали игрока %s §rиз списка игнорируемых'
+REPLY_PLAYER_NULL: 'Ошибка, вам еще не писали личных сообщений'
+PLAYERS_UNIGNORED: 'Теперь игроки могут отправлять вам личные сообщения.'
+PLAYERS_IGNORED: 'Теперь игроки не могут отправлять вам личные сообщения.'
+SENT_MESSAGE_FORMAT: ' §aЛС §8| §aЯ §8-> %s §8| §f%s'
+RECIEVED_MESSAGE_FORMAT: ' §aЛС §8| %s §8-> §aЯ §8| §f%s'
+REPLY_HOVER_MESSAGE:
+- '§fНажмите сюда, чтобы еще раз написать'
+- '§fигроку %s §fв лс'
+
+KEY_BOX: '%sУ вас %s %s'
+BOX_NAME: 'Мистический сундук'
+BOX_SUB_NAME: '§7Нажмите, чтобы открыть'
+BOX_NO_KEY: '§cУ вас нет ключей'
+BOX_WINNER: '§fВы выиграли %s§r предмет %s'
+BOX_WINNER_OTHER: '%s §rвыиграл %s§r предмет %s'
+BOX_MONEY: '§eМонеты §f(§e+%s§f)'
+BOX_GOLD: '§6Золото §f(§6+%s§f)'
+BOX_KEYS: '§dКлючи §f(§d+%s§f)'
+BOX_WORK: 'Подождите.. Сундук уже открыт кем-то'
+
+ITEMS_LOBBY_PROFILE_NAME: '§eПрофиль игрока'
+ITEMS_LOBBY_PROFILE_LORE: []
+
+ITEMS_LOBBY_SHOP_NAME: '§eМагазин'
+ITEMS_LOBBY_SHOP_LORE: []
+
+ITEMS_LOBBY_SELECTOR_NAME: '§eВыбор режима'
+ITEMS_LOBBY_SELECTOR_LORE: []
+
+LOBBY_SETTINGS_FLY_NAME: 'Полет'
+LOBBY_SETTINGS_FLY_LORE: []
+
+LOBBY_SETTINGS_HIDER_NAME: 'Скрытие игроков'
+LOBBY_SETTINGS_HIDER_LORE: []
+
+LOBBY_SETTINGS_CHAT_NAME: 'Чат'
+LOBBY_SETTINGS_CHAT_LORE: []
+
+LOBBY_SETTINGS_BOARD_NAME: 'Скорборд'
+LOBBY_SETTINGS_BOARD_LORE: []
+
+LOBBY_SETTINGS_PRIVATE_MESSAGE_NAME: 'Личные сообщения'
+LOBBY_SETTINGS_PRIVATE_MESSAGE_LORE: []
+
+LOBBY_SETTINGS_DONATE_CHAT_NAME: 'Чат донатеров'
+LOBBY_SETTINGS_DONATE_CHAT_LORE: []
+
+LOBBY_SETTINGS_STAFF_CHAT_NAME: 'Чат персонала'
+LOBBY_SETTINGS_STAFF_CHAT_LORE: []
+
+LOBBY_SETTINGS_BLOOD_NAME: 'Кровь'
+LOBBY_SETTINGS_BLOOD_LORE: []
+
+LOBBY_SETTINGS_FRIEND_REQUEST_NAME: 'Заявки в друзья'
+LOBBY_SETTINGS_FRIEND_REQUEST_LORE: []
+
+GAME_UPDATE: 'Обновленный'
+GAME_NEW: 'Новый'
+
+PROFILE_MAIN_ITEM_SETTINGS_NAME: 'Настройки'
+
+ENABLE: 'Включен'
+DISABLE: 'Отключен'
+
+ITEMS_LOBBY_ENABLE_LORE:
+  - '§7Нажмите, чтобы отключить'
+
+ITEMS_LOBBY_DISABLE_LORE:
+  - '§7Нажмите, чтобы включить'
+
+CLICK_TO_CONNECT: '§eНажмите, чтобы подключиться'
+
+BOX_GUI_NAME: 'Открытие кейсов'
+BOX_OPEN_YOU: '§rВы начали открывать кейс..'
+
+TIME_DAY_1:
+- 'д'
+- 'ень'
+- 'ня'
+- 'ней'
+TIME_SECOND_1:
+- 'секунд'
+- 'у'
+- 'ы'
+- ''
+TIME_SECOND_2:
+- 'секунд'
+- 'а'
+- 'ы'
+- ''
+TIME_HOURS_1:
+- 'час'
+- ''
+- 'а'
+- 'ов'
+TIME_MINUTES_1:
+- 'минут'
+- 'у'
+- 'ы'
+- ''
+TIME_MINUTES_2:
+- 'минут'
+- 'а'
+- 'ы'
+- ''
+KEYS_1:
+  - 'ключ'
+  - ''
+  - 'а'
+  - 'ей'
+
+KIT_ITEM_NAME: '§aВыбор набора'
+KIT_ITEM_LORE: []
+
+PERK_ITEM_NAME: '§aВыбор умения'
+PERK_ITEM_LORE: []
+
+HUB_ITEM_NAME: '§cТелепортироваться в лобби'
+HUB_ITEM_LORE: []
+
+GROUP_ALREADY_DEFAULT: 'Ошибка, у игрока %s §rнет группы'
+GROUP_CHANGES_BROADCAST: '%s §rизменил группу игрока %s'
+PLAYER_ALREADY_GROUP: 'Ошибка, у игрока %s §rуже имеется данная группа'
+
+NO_NEVER_PLAYED: 'Ошибка, игрок %s §rникогда прежде не играл на сервере'
+NO_FOUND_PLAYER: 'Ошибка, игрок %s §rне в сети'
+SERVER_NOT_FOUND: 'Ошибка, сервер §7%s §rне найден'
+
+FIND_RESULT: 'Игрок %s §rнаходится на сервере §a%s'
+
+SENDING_PLAYER_TO_SERVER: 'Вы телепортировали игрока %s §rна сервер §a%s'
+YOU_HAVE_BEEN_SENT: '%s §rтелепортировал вас на сервер §a%s'
+SERVER_TO: 'Вы подключились к серверу §a%s'
+
+PING: 'Ваш пинг §a%s§rms'
+
+SPECTATOR_CAMERA_OFF: '§cВы покинули режим наблюдателя'
+SPECTATOR_CAMERA_TITLE: '§aРежим наблюдения'
+SPECTATOR_CAMERA_SUBTITLE: 'Наблюдаем за игроком: %s'
+SPECTATOR_CAMERA_ACTIONBAR: '§fНажмите §aSHIFT §fчтобы покинуть режим наблюдателя'
+SPECTATOR_SETTINGS_GUI_NAME: 'Настройки наблюдателя'
+SPECTATOR_SETTINGS_SPEED: 'Скорость'
+SPECTATOR_SETTINGS_NO_SPEED: 'Без скорости'
+SPECTATOR_SETTINGS_FLY_ON: '§aВключить постоянный полет'
+SPECTATOR_SETTINGS_FLY_OFF: '§cВыключить постоянный полет'
+SPECTATOR_SETTINGS_VISION_OFF: '§cВыключить ночное видение'
+SPECTATOR_SETTINGS_VISION_ON: '§aВключить ночное видение'
+SPECTATOR_SETTINGS_HIDE: '§cСкрыть наблюдателей'
+SPECTATOR_SETTINGS_SHOW: '§aПоказать наблюдателей'
+
+SPECTATOR_TEAM_LORE: '§7Команда: %s'
+SPECTATOR_KILLS_LORE: '§7Убийств: §c%s'
+SPECTATOR_MAIN_LORE:
+- '§7Здоровье: §a%s'
+- '§7Голод: §a%s'
+- ''
+- '§e▸ ЛКМ, чтобы телепортироваться'
+- '§e▸ ПКМ, чтобы наблюдать от 1-ого лица'
+
+SPECTATOR_MENU_NAME: 'Телепортер'
+
+SKYWARS_SOLO_TYPE: '§eОдиночный'
+SKYWARS_TEAM_TYPE: '§cКомандный'
+SKYWARS_RANKED_TYPE: '§bРейтинговый'
+
+START_GAME_ARENA: '§fИгра начнется через §a%s §f%s'
+JOIN_GAMER_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
+QUIT_GAMER_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
+ERROR_START_GAMER_ARENA: '§cОшибка, не хватает игроков для старта'
+
+BOARD_PLAYERS: 'Игроков'
+BOARD_FOR_START: 'Для старта нужно'
+BOARD_TO_START: 'Начало через'
+BOARD_WAIT: 'Ожидание'
+BOARD_MAPS: 'Карта'
+BOARD_SERVER: 'Сервер'
