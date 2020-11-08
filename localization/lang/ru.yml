@@ -143,6 +143,10 @@ KEYS_1:
   - ''
   - 'а'
   - 'ей'
+  
+BEST_PLAYER_HOLO:
+- '§aПочётный игрок сервера'
+- '%s'
 
 KIT_ITEM_NAME: '§aВыбор набора'
 KIT_ITEM_LORE: []
